@@ -7,6 +7,15 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 export default [
   { ignores: ['dist'] },
   {
+    rules: {
+      'react-refresh/only-export-components': [
+        'warn',
+        { allowConstantExport: true },
+      ],
+      'react/prop-types': 'off', 
+      'react/no-unescaped-entities': 'off'
+    },
+    
     files: ['**/*.{js,jsx}'],
     languageOptions: {
       ecmaVersion: 2020,

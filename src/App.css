@@ -40,3 +40,30 @@
 .read-the-docs {
   color: #888;
 }
+
+#skins-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.skin-card {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.skin-img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
