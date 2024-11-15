@@ -1,40 +1,35 @@
+// src/weapons/skins.js
 
 const API_KEY = '6FE9FA2382CD9FC0';
-const BASE_URL = ` https://valorant-api.com/v1/weapons/skins?key=${API_KEY}`;
+const BASE_URL = `https://valorant-api.com/v1/weapons/skins?key=${API_KEY}`;
 
-const skins = async () => {
-  
-  const res = await fetch(BASE_URL);
-  const data = await res.json();   
-  
-    const skinsArray = data.data;
-
-
-  const mappedSkins = skinsArray.map(skin => ({
-    displayName: skin.displayName,
-    wallpaper: skin.displayIcon
-  }));
-
-
-  console.log(mappedSkins);
-const skinsContainer = document.getElementById('skins-container')//getElementByID
-
-//Create a for Each
-mappedSkins.forEach(skin => {
-    const card = document.createElement('div');
-    card.cardList.add('skin-card');
-
-const img =document.createElement('img');
-img.src = skin.wallpaper
-img.alt = skin.displayName
-
-const name = document.createElement('weapon-name')
-name.textContent = skin.displayName
-})
-
-
-//Append the card to the container
+const fetchSkins = async () => {
+  try {
+    const res = await fetch(BASE_URL);
+    const data = await res.json();
+    return data.data;  
+  } catch (error) {
+    console.log(error);
+    throw new Error("Failed to fetch skins");
+  }
 };
 
-skins();
-export { skins };
+const mappedSkins = (skins) => {
+  return skins.map(skin => ({
+    displayName: skin.displayName,
+    wallpaper: skin.displayIcon, 
+  }));
+};
+
+
+const getMappedSkins = async () => {
+  const skins = await fetchSkins();  
+  const mappedSkinsData = mappedSkins(skins);  
+
+  return mappedSkinsData;  
+};
+
+export { fetchSkins};
+export {BASE_URL};
+export {mappedSkins};
+export {getMappedSkins};

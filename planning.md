@@ -9,6 +9,10 @@ KEY: Manifest Id: `6FE9FA2382CD9FC0`
 
 This app has an inventory of all Valorant Weapons Skins and these weapon skins can be added into your personal inventory. This allows you to view all skins that a user has all in one place. 
 
+MVP USER STORIES:
+
+As a Valorant player, I want to track all the skins that I have purchased in an app instead of having to log into the Valorant application, so that I won't have to continue to keep logging in and out of the Valorant application. 
+
 ✮⋆˙TO DO:
 
 
@@ -18,7 +22,7 @@ This app has an inventory of all Valorant Weapons Skins and these weapon skins c
 - [X]  Make sure that the API can be accessed
 - [X]  Only access name and picture in the API
 - [ ]  Create HomePage
-- []  Create Weapons Inventory Page
+- [X]  Create Weapons Inventory Page
 - [ ]  Create Personal Inventory Page
 - [ ]  Create Search Bar? (Level Up)
 - [ ]  Create button to add weapons from weapons inventory to personal inventory

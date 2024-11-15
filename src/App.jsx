@@ -1,32 +1,46 @@
-// src/App.jsx
-import { useState } from "react";
-import { skins } from "./weapons/skins";
-import Navbar from "./components/NavBar";
-import './App.css'
 
+import Navbar from "./components/NavBar";
+import WeaponsVault from "./components/WeaponsVault";
+import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Inventory from "./components/inventory";
+import { useState } from "react";
+import Home from "./components/home";
 
 const App = () => {
-  // const [weaponSkin, setWeaponSkin] = useState({})
+  const [inventoryWeapon,setInventoryWeapon] = useState([]);
 
-  // const fetchData = async (uuid) => {
-  //   const data = await skins.show(uuid)
-  //   console.log('skins', data)
-
-  //   // TODO: Parse the data to pull out only the properties we want 
-  //   const newData = { 
-  //     displayName: data.displayName,
-  //     displayIcon: data.displayIcon,
-  //   }
-    
-  //   console.log(newData)
-  // }
-
-  // fetchData()
+  const handleAddSkin = (displayName,wallpaper) => {
+      const newSkin = {
+          displayName,
+          wallpaper,
+      };
+      setInventoryWeapon((prevInventory)=>[...prevInventory,newSkin]);
+  };
   return (
-    // <Navbar />,
-    <skins/>
+    <div className="app">
+      <Navbar />
+
+<Routes>
+<Route
+          path="/WeaponsVault"
+          element={<WeaponsVault handleAddSkin={handleAddSkin} />}
+        />
+</Routes>
+<Routes>
+      <Route
+    path="/inventory"
+    element={<Inventory inventoryWeapon={inventoryWeapon} setInventoryWeapon={setInventoryWeapon} />}
+  />
+  </Routes>
+  <Routes>
+      <Route
+    path="/Home"
+    element={<Home Home={Home} />}
+  />
+  </Routes>
+    </div>
   );
-}
+};
 
-export default App
-
+export default App;
