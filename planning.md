@@ -25,7 +25,11 @@ As a Valorant player, I want to track all the skins that I have purchased in an 
 - [X]  Create Weapons Inventory Page
 - [ ]  Create Personal Inventory Page
 - [ ]  Create Search Bar? (Level Up)
-- [ ]  Create button to add weapons from weapons inventory to personal inventory
+- [X]  Create button to add weapons from weapons inventory to personal inventory
 - [ ]  Create a delete button in the personal inventory to remove weapon skins
 - [ ]  Dive into CSS for this app
-- [ ]  Make pictures in the inventory move when hovered
+- [ ]  Make pictures in the inventory move when hovered (level up)
+
+TODO:
+//Create a post page for users to add clips 
+//figure out tailwind for css 

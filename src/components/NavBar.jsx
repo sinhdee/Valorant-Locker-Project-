@@ -9,10 +9,13 @@ return (
         <Link to='/home'>Home</Link>
       </li>
       <li>
-        <Link to='/inventory'>Your Inventory</Link>
+        <Link to='/About'>About</Link>
       </li>
       <li>
         <Link to='/WeaponsVault'>Weapons</Link>
+      </li>
+      <li>
+        <Link to='/inventory'>Your Inventory</Link>
       </li>
     </ul>
   </nav>

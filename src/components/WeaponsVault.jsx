@@ -37,7 +37,7 @@ const WeaponsVault =({handleAddSkin}) => {
           <div key={index} className="skin-card">
             <img src={skin.wallpaper} alt={skin.displayName} className="skin-image" />
             <div className="weapon-name">{skin.displayName}</div>
-            <button type="submit" className="add-button" onClick={ () => handleAddSkin(skin.displayName, skin.wallpaper)}>Add to Inventory</button>
+            <button type="submit" className="bg-pink-500" onClick={ () => handleAddSkin(skin.displayName, skin.wallpaper)}>Add to Inventory</button>
           </div>
         ))
       ) : (

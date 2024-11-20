@@ -1,0 +1,1 @@
+const image1 = <img src ="https://imageio.forbes.com/specials-images/imageserve/6531307511096cbdafbfb009/Valorant-agent-Iso-artwork/960x0.png?format=png&width=960"/>

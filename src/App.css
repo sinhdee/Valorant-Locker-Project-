@@ -79,19 +79,19 @@ width: 300px;
   padding-top: 15%;
   padding-bottom: 10%;
 }
-
+/* 
 .add-button {
   display: flex;
   justify-content: center;
   background-color: beige;
   color: black;
-}
+} */
 
-.twitch-streamers {
+/* .twitch-streamers {
   display: flex;
   flex-direction: column;
   justify-content: start;
   flex-wrap: wrap;
 
-}
+} */
 

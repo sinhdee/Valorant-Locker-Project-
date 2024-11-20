@@ -6,6 +6,8 @@ import { Route, Routes } from "react-router-dom";
 import Inventory from "./components/inventory";
 import { useState } from "react";
 import Home from "./components/home";
+import About from "./components/About";
+
 
 const App = () => {
   const [inventoryWeapon,setInventoryWeapon] = useState([]);
@@ -18,8 +20,8 @@ const App = () => {
       setInventoryWeapon((prevInventory)=>[...prevInventory,newSkin]);
   };
   return (
-    <div className="app">
-      <Navbar />
+    <div className="space-y-8">
+      <Navbar/>
 
 <Routes>
 <Route
@@ -27,6 +29,12 @@ const App = () => {
           element={<WeaponsVault handleAddSkin={handleAddSkin} />}
         />
 </Routes>
+<Routes>
+      <Route
+    path="/about"
+    element={<About/>}
+  />
+  </Routes>
 <Routes>
       <Route
     path="/inventory"
