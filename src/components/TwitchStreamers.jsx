@@ -9,13 +9,12 @@ return (
         <h2 className="channel-name">TenZ </h2>
         <div className="flex justify-center space-x-4">
         <iframe
-        src="https://player.twitch.tv/?channel=tenz&parent=https://valorant101.netlify.app/home&muted=true"
-        height="<height>"
+        src="https://player.twitch.tv/?channel=tenz&parent=valorant101.netlify.app&muted=true"
         width="<width>"
         allowfullscreen
         />
         <iframe
-        src="https://player.twitch.tv/?video=2300275570&parent=https://valorant101.netlify.app/home"
+        src="https://player.twitch.tv/?video=2300275570&parentvalorant101.netlify.app"
         height="<height>"
         width=""
         allowFullScreen
@@ -25,13 +24,13 @@ return (
         <h2 className="channel-name">Pokimane</h2>
         <div className="flex justify-center space-x-4">
              <iframe
-        src="https://player.twitch.tv/?channel=pokimane&parent=https://valorant101.netlify.app/home&muted=true"
+        src="https://player.twitch.tv/?channel=pokimane&parent=valorant101.netlify.app&muted=true"
         height=""
         width=""
         allowfullscreen
         />
       <iframe
-        src="https://player.twitch.tv/?video=2271749009&parent=https://valorant101.netlify.app/home"
+        src="https://player.twitch.tv/?video=2271749009&parent=valorant101.netlify.app"
         height=""
         width=""
         allowFullScreen
@@ -41,13 +40,13 @@ return (
         <h2 className="channel-name">Kyedae</h2>
         <div className="flex justify-center space-x-4">     
             <iframe
-        src="https://player.twitch.tv/?channel=kyedae&parent=https://valorant101.netlify.app/home&muted=true"
+        src="https://player.twitch.tv/?channel=kyedae&parent=valorant101.netlify.app&muted=true"
         height="<height>"
         width="<width>"
         allowfullscreen
         />
     <iframe
-        src="https://player.twitch.tv/?video=2299974813&parent=https://valorant101.netlify.app/home"
+        src="https://player.twitch.tv/?video=2299974813&parent=valorant101.netlify.app"
         height="<height>"
         width=""
         allowFullScreen
