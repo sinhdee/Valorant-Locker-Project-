@@ -12,7 +12,8 @@ const bestskins = () => {
         />
         <iframe
         src = "https://www.youtube.com/embed/-WYElC5Xi-U"
-        alt = "Elderflame Vandal Video"/>
+        alt = "Elderflame Vandal Video"
+        allowFullScreen/>
         </div>
         <div className="flex flex-col items-center gap-8">
         <h2>Reaver Phantom</h2>
