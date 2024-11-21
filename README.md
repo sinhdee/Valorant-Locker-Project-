@@ -1,5 +1,5 @@
 SCREENSHOT/LOGO:
-![logo](![image](https://drive.google.com/uc?id=1X89hO9-FrADjEA1NRa9OvorOZ5BO11C8
+![image](https://drive.google.com/uc?id=1X89hO9-FrADjEA1NRa9OvorOZ5BO11C8
 )
 VALORANT WEAPON SKIN LOCKER 
 
