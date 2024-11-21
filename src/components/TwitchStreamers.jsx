@@ -52,8 +52,9 @@ const items = [
         title="Valorant Clip"
       />
     </div>
-        <h2 className="flex justify-center text-red-500">Tarik</h2>
+       
         <div key="Tarik" className="flex justify-center space-x-4">
+        <h2 className="flex justify-center text-red-500">Tarik</h2>
                <iframe
         src="https://player.twitch.tv/?channel=tarik&parent=valorant101.netlify.app=true"
         height="<height>"
@@ -68,6 +69,7 @@ const items = [
         title="Valorant Clip"
       />
       </div>
+      
              <h2 className="flex justify-center text-red-500">Subroza</h2>
              <div key="Subroza"className="flex justify-center space-x-4">
                <iframe
@@ -87,11 +89,13 @@ const items = [
     </div>
 ]
 return (
+  <div className="twitch-streamers">
  <AliceCarousel
  items={items}
 autoPlay
 autoPlayInterval={3000}
 />
+</div>
 )
 }
 
