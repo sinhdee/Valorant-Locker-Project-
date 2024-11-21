@@ -101,7 +101,7 @@ const items = [
 return ( <AliceCarousel
  items={items}
 autoPlay
-autoPlayInterval={3000}
+autoPlayInterval={4000}
 />
 );
 };
