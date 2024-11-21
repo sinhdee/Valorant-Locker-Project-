@@ -6,7 +6,7 @@ const TwitchStream = () => {
 const items = [
      <div className="twitch-streamers">
         <h2 className="flex justify-center text-red-500">TenZ </h2>
-        <div className="flex justify-center space-x-4">
+        <div key="tenz"className="flex justify-center space-x-4">
         <iframe
         src="https://player.twitch.tv/?channel=tenz&parent=valorant101.netlify.app&muted=true"
         width="<width>"
@@ -21,7 +21,7 @@ const items = [
       />
       </div>
         <h2 className="flex justify-center text-red-500">Pokimane</h2>
-        <div className="flex justify-center space-x-4">
+        <div key="pokimane"className="flex justify-center space-x-4">
              <iframe
         src="https://player.twitch.tv/?channel=pokimane&parent=valorant101.netlify.app&muted=true"
         height=""
@@ -37,7 +37,7 @@ const items = [
       />
       </div>
         <h2 className="flex justify-center text-red-500">Kyedae</h2>
-        <div className="flex justify-center space-x-4">     
+        <div key="kyedae" className="flex justify-center space-x-4">     
             <iframe
         src="https://player.twitch.tv/?channel=kyedae&parent=valorant101.netlify.app&muted=true"
         height="<height>"
@@ -53,7 +53,7 @@ const items = [
       />
     </div>
         <h2 className="flex justify-center text-red-500">Tarik</h2>
-        <div className="flex justify-center space-x-4">
+        <div key="Tarik" className="flex justify-center space-x-4">
                <iframe
         src="https://player.twitch.tv/?channel=tarik&parent=valorant101.netlify.app=true"
         height="<height>"
@@ -69,7 +69,7 @@ const items = [
       />
       </div>
              <h2 className="flex justify-center text-red-500">Subroza</h2>
-             <div className="flex justify-center space-x-4">
+             <div key="Subroza"className="flex justify-center space-x-4">
                <iframe
         src="https://player.twitch.tv/?channel=subroza&parent=valorant101.netlify.app&muted=true"
         height="<height>"
