@@ -9,13 +9,13 @@ return (
         <h2 className="channel-name">TenZ </h2>
         <div className="flex justify-center space-x-4">
         <iframe
-        src="https://player.twitch.tv/?channel=tenz&parent=localhost&muted=true"
+        src="https://player.twitch.tv/?channel=tenz&parent=https://valorant101.netlify.app/home&muted=true"
         height="<height>"
         width="<width>"
         allowfullscreen
         />
         <iframe
-        src="https://player.twitch.tv/?video=2300275570&parent=localhost"
+        src="https://player.twitch.tv/?video=2300275570&parent=https://valorant101.netlify.app/home"
         height="<height>"
         width=""
         allowFullScreen
