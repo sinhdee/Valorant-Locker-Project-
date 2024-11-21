@@ -24,7 +24,8 @@ const bestskins = () => {
         />
         <iframe
         src = "https://www.youtube.com/embed/392UKKpTXTE"
-        alt = "Reaver Phantom Video"/>
+        alt = "Reaver Phantom Video"
+        allowFullScreen/>
         </div>
         <div className="flex flex-col items-center gap-8">
         <h2>Prime 2.0 Karambit</h2>
@@ -35,7 +36,8 @@ const bestskins = () => {
         />
         <iframe
         src = "https://www.youtube.com/embed/Tu0O9tb5-k"
-        alt = "Prime 2.0 Karambit Video"/>
+        alt = "Prime 2.0 Karambit Video"
+        allowFullScreen/>
         </div>
         <div className="flex flex-col items-center gap-8">
         <h2>Glitchpop Vandal</h2>
@@ -46,7 +48,8 @@ const bestskins = () => {
         />
         <iframe
         src = "https://www.youtube.com/embed/WyOLM_ODzDw"
-        alt = "Glitchpop Vandal Video"/>
+        alt = "Glitchpop Vandal Video"
+        allowFullScreen/>
         </div>
         <div className="flex flex-col items-center gap-8">
         <h2>Prime Odin</h2>
@@ -57,7 +60,8 @@ const bestskins = () => {
         />
         <iframe
         src = "https://www.youtube.com/embed/nO7WlBbe440"
-        alt = "Prime Odin Video"/>
+        alt = "Prime Odin Video"
+        allowFullScreen/>
         </div>
       </div>
     )
