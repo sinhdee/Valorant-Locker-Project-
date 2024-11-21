@@ -25,13 +25,13 @@ return (
         <h2 className="channel-name">Pokimane</h2>
         <div className="flex justify-center space-x-4">
              <iframe
-        src="https://player.twitch.tv/?channel=pokimane&parent=localhost&muted=true"
+        src="https://player.twitch.tv/?channel=pokimane&parent=https://valorant101.netlify.app/home&muted=true"
         height=""
         width=""
         allowfullscreen
         />
       <iframe
-        src="https://player.twitch.tv/?video=2271749009&parent=localhost"
+        src="https://player.twitch.tv/?video=2271749009&parent=https://valorant101.netlify.app/home"
         height=""
         width=""
         allowFullScreen
@@ -41,13 +41,13 @@ return (
         <h2 className="channel-name">Kyedae</h2>
         <div className="flex justify-center space-x-4">     
             <iframe
-        src="https://player.twitch.tv/?channel=kyedae&parent=localhost&muted=true"
+        src="https://player.twitch.tv/?channel=kyedae&parent=https://valorant101.netlify.app/home&muted=true"
         height="<height>"
         width="<width>"
         allowfullscreen
         />
     <iframe
-        src="https://player.twitch.tv/?video=2299974813&parent=localhost"
+        src="https://player.twitch.tv/?video=2299974813&parent=https://valorant101.netlify.app/home"
         height="<height>"
         width=""
         allowFullScreen
@@ -57,13 +57,13 @@ return (
         <h2 className="channel-name">Tarik</h2>
         <div className="flex justify-center space-x-4">
                <iframe
-        src="https://player.twitch.tv/?channel=tarik&parent=localhost&muted=true"
+        src="https://player.twitch.tv/?channel=tarik&parent=https://valorant101.netlify.app/home&muted=true"
         height="<height>"
         width="<width>"
         allowfullscreen
         />
           <iframe
-        src="https://player.twitch.tv/?video=2301125646&parent=localhost"
+        src="https://player.twitch.tv/?video=2301125646&parent=https://valorant101.netlify.app/home"
         height="<height>"
         width=""
         allowFullScreen
@@ -73,13 +73,13 @@ return (
              <h2 className="channel-name">Subroza</h2>
              <div className="flex justify-center space-x-4">
                <iframe
-        src="https://player.twitch.tv/?channel=subroza&parent=localhost&muted=true"
+        src="https://player.twitch.tv/?channel=subroza&parent=https://valorant101.netlify.app/home&muted=true"
         height="<height>"
         width="<width>"
         allowfullscreen
         />
        <iframe
-        src="https://player.twitch.tv/?video=2294337508&parent=localhost"
+        src="https://player.twitch.tv/?video=2294337508&parent=https://valorant101.netlify.app/home"
         height="<height>"
         width=""
         allowFullScreen
