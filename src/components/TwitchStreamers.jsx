@@ -14,7 +14,7 @@ return (
         allowfullscreen
         />
         <iframe
-        src="https://player.twitch.tv/?video=2300275570&parentvalorant101.netlify.app"
+        src="https://player.twitch.tv/?video=2300275570&parent=valorant101.netlify.app"
         height="<height>"
         width=""
         allowFullScreen
