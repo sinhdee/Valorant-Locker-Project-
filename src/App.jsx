@@ -10,43 +10,43 @@ import About from "./components/About";
 
 
 const App = () => {
-  const [inventoryWeapon,setInventoryWeapon] = useState([]);
+  const [inventoryWeapon, setInventoryWeapon] = useState([]);
 
-  const handleAddSkin = (displayName,wallpaper) => {
-      const newSkin = {
-          displayName,
-          wallpaper,
-      };
-      setInventoryWeapon((prevInventory)=>[...prevInventory,newSkin]);
+  const handleAddSkin = (displayName, wallpaper) => {
+    const newSkin = {
+      displayName,
+      wallpaper,
+    };
+    setInventoryWeapon((prevInventory) => [...prevInventory, newSkin]);
   };
   return (
     <div className="space-y-8">
-      <Navbar/>
+      <Navbar />
 
-<Routes>
-<Route
-          path="/weaponsvault"
+      <Routes>
+        <Route
+          path="/WeaponsVault"
           element={<WeaponsVault handleAddSkin={handleAddSkin} />}
         />
-</Routes>
-<Routes>
-      <Route
-    path="/about"
-    element={<About/>}
-  />
-  </Routes>
-<Routes>
-      <Route
-    path="/inventory"
-    element={<Inventory inventoryWeapon={inventoryWeapon} setInventoryWeapon={setInventoryWeapon} />}
-  />
-  </Routes>
-  <Routes>
-      <Route
-    path="/Home"
-    element={<Home Home={Home} />}
-  />
-  </Routes>
+      </Routes>
+      <Routes>
+        <Route
+          path="/about"
+          element={<About />}
+        />
+      </Routes>
+      <Routes>
+        <Route
+          path="/inventory"
+          element={<Inventory inventoryWeapon={inventoryWeapon} setInventoryWeapon={setInventoryWeapon} />}
+        />
+      </Routes>
+      <Routes>
+        <Route
+          path="/Home"
+          element={<Home Home={Home} />}
+        />
+      </Routes>
     </div>
   );
 };
