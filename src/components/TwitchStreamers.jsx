@@ -57,13 +57,13 @@ return (
         <h2 className="channel-name">Tarik</h2>
         <div className="flex justify-center space-x-4">
                <iframe
-        src="https://player.twitch.tv/?channel=tarik&parent=https://valorant101.netlify.app/home&muted=true"
+        src="https://player.twitch.tv/?channel=tarik&parent=valorant101.netlify.app=true"
         height="<height>"
         width="<width>"
         allowfullscreen
         />
           <iframe
-        src="https://player.twitch.tv/?video=2301125646&parent=https://valorant101.netlify.app/home"
+        src="https://player.twitch.tv/?video=2301125646&parent=valorant101.netlify.app"
         height="<height>"
         width=""
         allowFullScreen
@@ -73,13 +73,13 @@ return (
              <h2 className="channel-name">Subroza</h2>
              <div className="flex justify-center space-x-4">
                <iframe
-        src="https://player.twitch.tv/?channel=subroza&parent=https://valorant101.netlify.app/home&muted=true"
+        src="https://player.twitch.tv/?channel=subroza&parent=valorant101.netlify.app&muted=true"
         height="<height>"
         width="<width>"
         allowfullscreen
         />
        <iframe
-        src="https://player.twitch.tv/?video=2294337508&parent=https://valorant101.netlify.app/home"
+        src="https://player.twitch.tv/?video=2294337508&parent=valorant101.netlify.app"
         height="<height>"
         width=""
         allowFullScreen
