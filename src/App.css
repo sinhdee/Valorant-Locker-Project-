@@ -1,9 +1,4 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+
 
 .logo {
   height: 6em;
@@ -54,7 +49,7 @@ justify-content: space-evenly;
 }
 
 .skin-card {
-background: #e0f1f6aa;
+background: #fd4556;
 display: flex;
 flex-wrap: wrap;
 flex-direction: column;
@@ -79,19 +74,4 @@ width: 300px;
   padding-top: 15%;
   padding-bottom: 10%;
 }
-/* 
-.add-button {
-  display: flex;
-  justify-content: center;
-  background-color: beige;
-  color: black;
-} */
-
-/* .twitch-streamers {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  flex-wrap: wrap;
-
-} */
 

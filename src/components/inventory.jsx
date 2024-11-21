@@ -6,15 +6,15 @@ const Inventory = ({inventoryWeapon, setInventoryWeapon}) => {
       
     };
 return (
-    <div><h1>Inventory: Weapon Skins</h1>
-    <div className="skin-card-container">
+    <div><h1 className="flex justify-center text-white py-5 text-[30px] ">Inventory: Weapon Skins</h1>
+    <div className="flex justify-center">
         
         <ul>
             {inventoryWeapon.map((weapon, index) => (
                 <div key={index} className="skin-card">
                 <img src={weapon.wallpaper} alt={weapon.displayName} className="skin-image" />
                 <div className="weapon-name">{weapon.displayName}</div>
-                <button className="bg-pink-500 p-2 rounded" onClick={() => handleDeleteSkin(index)}>Delete</button>
+                <button className="bg-[#fffbf5] rounded px-2 py-1 text-sm" onClick={() => handleDeleteSkin(index)}>Delete</button>
               </div>
             ))}
         </ul>

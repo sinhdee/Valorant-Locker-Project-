@@ -24,7 +24,7 @@ const WeaponsVault =({handleAddSkin}) => {
   return (
     <div>
 
-    <h1>Weapons Skins Vault</h1>
+    <h1 className="flex justify-center text-white py-5 text-[30px]">Weapons Skins Vault</h1>
     
      
     {loading && <p>Loading...</p>}
@@ -37,7 +37,7 @@ const WeaponsVault =({handleAddSkin}) => {
           <div key={index} className="skin-card">
             <img src={skin.wallpaper} alt={skin.displayName} className="skin-image" />
             <div className="weapon-name">{skin.displayName}</div>
-            <button type="submit" className="bg-pink-500" onClick={ () => handleAddSkin(skin.displayName, skin.wallpaper)}>Add to Inventory</button>
+            <button type="submit" onClick={ () => handleAddSkin(skin.displayName, skin.wallpaper)}className="bg-[#fffbf5] rounded px-2 py-1 text-sm">Add to Inventory</button>
           </div>
         ))
       ) : (
