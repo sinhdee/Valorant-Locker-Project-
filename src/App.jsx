@@ -25,7 +25,7 @@ const App = () => {
 
 <Routes>
 <Route
-          path="/WeaponsVault"
+          path="/weaponsvault"
           element={<WeaponsVault handleAddSkin={handleAddSkin} />}
         />
 </Routes>
