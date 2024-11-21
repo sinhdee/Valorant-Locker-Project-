@@ -3,11 +3,11 @@ SCREENSHOT/LOGO:
 VALORANT WEAPON SKIN LOCKER 
 
 GETTING STARTED:
-(INSERT DEPLOYED APP LINK)
-(REPO LINK TO PLANNING.MD)
+DEPLOYED: https://valorant101.netlify.app/home(REPO LINK TO PLANNING.MD)
+REPO: https://github.com/sinhdee/Valorant-Locker-Project-.git
 
 ATTRIBUTIONS:
-(INSERT LINK TO API)
+(https://valorant-api.com/v1/weapons/skins)
 
 TECHNOLOGIES USED:
 - Javascript 
