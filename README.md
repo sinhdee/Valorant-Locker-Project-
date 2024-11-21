@@ -19,4 +19,8 @@ TECHNOLOGIES USED:
 - React 
 - API
 
-NEXT STEPS:
+NEXT STEPS: 
+- Create Search Bar
+- Add Authorization factors 
+- Use APIS for charcaters, abilities, and maps
+- Make app more user friendly 
