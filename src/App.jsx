@@ -22,7 +22,12 @@ const App = () => {
   return (
     <div className="space-y-8">
       <Navbar />
-
+      <Routes>
+        <Route
+          path="/"
+          element={<Home/>}
+        />
+      </Routes>
       <Routes>
         <Route
           path="/WeaponsVault"
